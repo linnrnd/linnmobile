@@ -31,28 +31,29 @@ export default class Register extends React.Component{
         return(
             <View style={styles.container}>
                 <View>
-                <Text style={{fontFamily: "Fertigo_PRO"}}>
+                <Text style={styles.text}>
                     Create New Register
                 </Text>
                 <TextInput style={styles.textInput}>
-                    <Text>Mg Aye Win</Text>
-                    <Text>Name*</Text>
+                    <Text style={styles.text}>Mg Aye Win</Text>
+                    <Text style={styles.text}>Name*</Text>
                 </TextInput>
                
                 <TextInput style={styles.textInput}>
-                    <Text>+95123456789</Text>
-                    <Text>Phone Number*</Text>
+                    <Text style={styles.text}>+95123456789</Text>
+                    <Text style={styles.text}>Phone Number*</Text>
                 </TextInput>
                 
                 <TextInput style={styles.textInput}>
-                    <Text>9/PaMaNa(N)123456</Text>
-                    <Text>NRC Number</Text>
+                    <Text style={styles.text}>9/PaMaNa(N)123456</Text>
+                    <Text style={styles.text}>NRC Number</Text>
                 </TextInput>
 
                 <TextInput style={styles.textInput}>
-                    <Text>5/2/2020</Text>
-                    <Text>Date of Birth</Text>
+                    <Text style={styles.text}>5/2/2020</Text>
+                    <Text style={styles.text}>Date of Birth</Text>
                 </TextInput>
+                <Text style={styles.text}>Address</Text>
 
                 </View>
                
@@ -68,7 +69,13 @@ const styles=StyleSheet.create({
     textInput:{
         flexDirection:"row",
         borderWidth:1,
-        margin:10
+        margin:10,
+        width:"85%",
+        height:40,
+        borderRadius:5
 
+    },
+    text:{
+        fontFamily:"Fertigo_PRO"
     }
 })
