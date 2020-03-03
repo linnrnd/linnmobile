@@ -1,0 +1,13 @@
+#F24CC0
+#FFFCFC
+#F2951C
+#9074EF
+#22B6EE
+#E3BE04
+#FFFFFF
+#6FACFB
+
+
+Used Fonts
+
+PoynterGothicText
